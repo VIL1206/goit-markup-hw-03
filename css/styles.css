@@ -66,8 +66,6 @@ a {
 .menu-soc-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-list {
@@ -86,12 +84,15 @@ a {
 .address-header {
     font-style: normal
 }
+
 .header-address {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .address-header a:hover {
     color: #404bbf
@@ -281,7 +282,7 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
+    margin-bottom: 8px
 }
 .list-paragraph-portfolio {
     color: var(--SLATE, #434455);
