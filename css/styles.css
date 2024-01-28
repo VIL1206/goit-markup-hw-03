@@ -55,15 +55,12 @@ a {
 
 .header-titel {
     display: flex;
-    flex-grow: 1;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    margin: 0 auto;
 }
 .menu {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 .menu-soc-list {
     display: flex;
@@ -77,6 +74,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 .header .header-titel .menu a:hover {
     color: #404bbf
@@ -185,6 +183,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    margin-top: 0;
 }
 .list-paragraph {
     color: var(--SLATE, #434455);
@@ -275,7 +274,6 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
 }
 .program-app-marketing {
     display: block;
